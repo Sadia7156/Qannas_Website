@@ -1,0 +1,512 @@
+#navbar{
+    width: 100%;
+    background: linear-gradient(rgba(0, 160, 253, .5196078431), rgba(255, 247, 7, .568627451));
+    background-size: 100% 2px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-color: #ffffff;
+}
+body{
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.qannas_logo1{
+    width: 80px;
+    margin-left: 20px;
+}
+
+.navbar-nav a {
+    color: black;
+    margin-left: 30px; 
+    margin-top: 10px;  
+    white-space: nowrap; 
+}
+
+#start_btn{
+    margin-left: 520px;
+    border-radius: 35px;
+    background-color: #131f54;
+    color: white;
+    width: 175px;
+    height: 60px;
+    border: 2px solid  #131f54;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+.flag_img{
+    position: relative;
+    right: 320px;
+    height: 40px;
+    margin-top: 12px;
+}
+.language_text{
+    position: relative;
+    right: 310px; 
+    top: 18px;
+}
+.investment_heading{
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 80px ;
+    margin-top: 20px;
+}
+.manage_portfolios{
+    padding-left: 80px;
+    font-size: 23px;
+    font-family:'Times New Roman', Times, serif;
+}
+#starting_btn{
+    margin-left: 80px;
+    margin-top: 10px;
+    border-radius: 35px; 
+    background-color: #131f54 ;
+    color: white;
+    width: 185px;
+    height: 60px; 
+    border: 2px solid  #131f54; 
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact_btn{
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 35px;
+    background-color: white; 
+    width: 185px; 
+    height: 60px; 
+    border: 1px solid #131f54 ; 
+    color: #131f54  ; 
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.star_img1{
+    position: relative;
+    right: 40px; 
+    top: 60px;
+    height: 40px;
+}
+.star_img2{
+    position: relative; 
+    right: 360px;
+    top: 120px;
+}
+.qannas_img{
+    height: 405px;
+    width: 550px; 
+}
+.build_portfolio_heading{
+    text-align: center; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: bolder;
+    font-size: 40px;
+}
+.ease_usability_img,
+.perf_measure_img,
+.portfolio_collection_img,
+.risk_measure_img{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.ease_usability_heading,
+.perf_measure_heading,
+.portfolio_collection_heading,
+.risk_measure_heading{
+    font-family: 'Times New Roman', Times, serif; 
+    font-weight: bolder; 
+    font-size: 20px; 
+    margin-left: 15px;
+}
+.ease_usability_para,
+.perf_measure_para,
+.portfolio_collection_para,
+.risk_measure_para{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16px; 
+    margin-left: 15px;
+}
+.star_img3{
+    position: relative;
+    left: 20px;
+    bottom: 70px;
+}
+.android_app_img{
+    width: 90%; 
+    height: 75vh;
+    margin-top: 177px;
+    margin-left: 23px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.android_app_heading{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px;
+    font-weight: bolder; 
+    position: relative; 
+    bottom: 590px; 
+    margin-left: 25px;
+}
+.android_app_para{
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+    position: relative; 
+    bottom: 570px; 
+    font-size: 16px;
+}
+.star_img4{
+    position: relative; 
+    left: 10px;  
+    bottom: 50px;  
+}
+.service_heading{
+    text-align: center; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 23px; 
+    color: var(--Blue-color, #131F54);
+    letter-spacing: 2.88px;
+}
+.qannas_features{
+    text-align: center; 
+    font-weight: bolder; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 47px; 
+}
+.mobile_img1{
+    width: 200px; 
+    height: 410px ; 
+    margin-left: 230px;
+    margin-top: 175px;
+}
+.public_offer_heading{
+    font-family:'Times New Roman', Times, serif; 
+    font-weight: bolder; 
+    position: relative; 
+    bottom: 550px;
+    margin-left: 180px;
+}
+.public_offer_para{
+    text-align: center;
+    position:relative;
+    bottom: 550px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.learn_more_btn1{
+    background: none; 
+    border: none; 
+    color: #131f54; 
+    text-align: center; 
+    position: relative;
+    bottom: 100px; 
+    margin-left: 280px;
+}
+.mobile_img2{
+    width: 200px; 
+    height: 410px ; 
+    margin-left: 200px;
+    margin-top: 175px;
+}
+.share_portfolio_heading{
+    font-family:'Times New Roman', Times, serif; 
+    font-weight: bolder; 
+    position: relative; 
+    bottom: 550px;
+    margin-left: 160px;
+}
+.share_portfolio_para{
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif; 
+    position: relative; 
+    bottom: 530px;
+    left: 30px;
+}
+.learn_more_btn2{
+    background: none; 
+    border: none; 
+    color: #131f54; 
+    text-align: center; 
+    position: relative;
+    bottom: 70px;
+    margin-left: 250px;
+}
+.working_of_qannas{
+    text-align:center; 
+    font-size: 42px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bolder; 
+    line-height: 36px;
+}
+.get_started_heading{
+    margin-left: 80px;
+    font-size: 40px; 
+    line-height: 36px; 
+    font-weight: bolder; 
+    font-family:'Times New Roman', Times, serif;
+}
+.download_qannas{
+    margin-top: 50px;
+    margin-left: 80px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 19px;
+}
+.download_app_img{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.download_app_text{
+    position: relative; 
+    top: 20px; 
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px;
+}
+.create_portfolio_img{
+    position: relative; 
+    right: 180px;
+    top: 80px;
+}
+.create_portfolio_text{
+    position: relative; 
+    top: 80px;
+    right: 160px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px;
+}
+.investment_img{
+    position: relative; 
+    top: 140px;
+    right: 395px;
+}
+.investment_text{
+    position: relative; 
+    top: 140px;
+    right: 375px;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 18px;
+}
+.video{
+    margin-left: 30px; 
+    border-radius: 40px;
+}
+.partners_of_qannas{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bolder;
+    font-size: 38px; 
+}
+.marquee{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.marquee img{
+    margin-left: 40px;
+}
+.scroll{
+    position: relative;
+    display: flex;
+}
+.scroll.div{
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+.div.scroll.img{
+    display: inline-flex;
+    animation: linear infinite;
+    animation-play-state: paused;
+    transition: 0.5s;
+    animation-timeline: infinite;
+}
+
+.questions_img{
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.Frequently_asked_question{
+    margin-left: 70px;
+}
+#accordionFlush {
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 80%;
+    height: 88%;
+    background-color: white;
+}
+.accordion-button {
+    background-color: white;  
+    color: black;  
+    border-radius: 50px !important; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);  
+    font-weight: bold; 
+    height: 70px;
+    border-bottom: none;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+#accordionFlush strong {
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.accordion-body {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem;
+}
+
+#view_more_btn{
+    position: relative;
+    left: 65%;
+    top: 10px;
+    border-radius: 35px;
+    background-color: #131f54;
+    color: white;
+    width: 175px;
+    height: 60px;
+    border: 2px solid  #131f54;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+.footer{
+    background-color: #f2f2f2; 
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex: 0;
+    padding: 1rem;
+}
+.qannas_logo2 {
+    width: 80px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.download_links {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.playstore_img1{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+
+}
+.playstore_img2{
+    position: relative;
+    bottom: 40px;
+    margin-left: 160px;
+}
+.footer h5{
+    font-size: 19px;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 40px;
+    padding-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.footer ul {
+   list-style-type: none;
+   position: relative;
+   margin-top: 40px;
+   font-style: normal;
+   font-size: 14px;
+   font-weight: lighter;
+   white-space: nowrap;
+}
+
+.links_heading {
+    margin-left: 40px;
+}
+
+.links_ul1{
+    margin-left: 50px;
+}
+
+.legal_ul2{
+    margin-left: 10px;
+}
+
+.Product_heading {
+    margin-left: 40px;
+}
+
+.Product_ul3 {
+    margin-left: 50px;
+}
+
+.contact_heading {
+    margin-left: 20px;
+}
+
+.contact_img {
+    margin-left: 25px;
+    margin-top: 35px;
+}
+
+.contact_link {
+    position: relative;
+    bottom: 25px;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: black;
+}
+
+.email_img {
+    margin-left: 25px;
+}
+
+.email_link {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: black;
+}
+
+.location_img {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.location {
+    font-size: 15px;
+    font-weight: lighter;
+    position: relative;
+    bottom: 20px;
+    margin-left: 60px;
+    white-space: nowrap;
+}
+.social_heading {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.facebook_img {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.twitter_img,
+.linkedin_img,
+.insta_img  {
+    margin-top: 30px;
+    margin-left: 10px;
+}
